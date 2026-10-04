@@ -1,0 +1,10 @@
+.lottery {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+}
+
+.lottery h1,
+.lottery h3 {
+  margin: 0;
+}

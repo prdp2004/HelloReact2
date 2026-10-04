@@ -1,0 +1,86 @@
+#root { min-height: 100vh; }
+
+.app-shell {
+  /* width: min(100% - 32px, 900px); */
+  /* margin: 0 auto; */
+  padding: 56px 0;
+  display: flex;
+  align-items: center;
+  /* grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); */
+  /* align-items: start; */
+  gap: 24px;
+}
+
+/* .todo-card, .ludo-card {
+  padding: 30px;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 12px 36px rgb(31 41 55 / 7%);
+} */
+
+/* .eyebrow {
+  margin: 0 0 8px;
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+h1, h2, p { margin-top: 0; }
+h1 { margin-bottom: 24px; color: #111827; font-size: 28px; letter-spacing: -.04em; }
+h2 { margin-bottom: 0; color: #374151; font-size: 16px; }
+
+.task-form { display: flex; gap: 8px; }
+.task-form input {
+  width: 100%;
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 9px;
+  color: #111827;
+  background: #fff;
+}
+.task-form input::placeholder { color: #9ca3af; }
+.primary-button, .move-button {
+  border: 0;
+  border-radius: 9px;
+  color: #fff;
+  background: #4f46e5;
+  font-size: 13px;
+  font-weight: 650;
+  white-space: nowrap;
+  transition: filter .15s ease, transform .15s ease;
+}
+.primary-button { padding: 0 15px; }
+.primary-button:hover, .move-button:hover { filter: brightness(.94); transform: translateY(-1px); }
+
+.list-heading { display: flex; justify-content: space-between; align-items: center; margin-top: 28px; }
+.task-count { color: #6b7280; font-size: 12px; }
+.empty-state, .section-copy { margin: 12px 0 0; color: #6b7280; font-size: 14px; }
+.task-list { margin: 10px 0 0; padding: 0; list-style: none; }
+.task-list li { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid #f0f1f4; color: #374151; overflow-wrap: anywhere; }
+.delete-button, .text-button { padding: 5px 8px; border: 0; border-radius: 6px; color: #b45353; background: transparent; font-size: 12px; }
+.delete-button:hover { background: #fff1f1; }
+.text-button { margin-top: 14px; padding-left: 0; color: #4f46e5; font-weight: 650; }
+.text-button:hover { text-decoration: underline; }
+
+.player-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 22px; }
+.player-card { padding: 15px; border: 1px solid #eceef2; border-radius: 12px; background: #fcfcfd; }
+.player-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; vertical-align: 1px; }
+.player-name { display: inline-block; margin: 0 0 0 7px; color: #6b7280; font-size: 12px; font-weight: 600; }
+.move-count { margin: 12px 0; color: #111827; font-size: 30px; font-weight: 700; line-height: 1; }
+.move-button { width: 100%; padding: 9px; background: var(--player-color); }
+.history { margin-top: 24px; padding-top: 18px; border-top: 1px solid #eceef2; }
+.history ol { display: grid; gap: 8px; margin: 12px 0 0; padding-left: 20px; color: #6b7280; font-size: 13px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+@media (max-width: 700px) {
+  .app-shell { width: min(100% - 24px, 480px); padding: 24px 0; grid-template-columns: 1fr; gap: 16px; }
+  .todo-card, .ludo-card { padding: 22px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+} */

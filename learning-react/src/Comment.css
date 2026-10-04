@@ -1,0 +1,12 @@
+.comment {
+    border: 2px solid pink;
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+  align-items: center;
+  margin-left: 350px;
+  margin-top:-5px
+}
+div {
+    margin-top: 100px;
+}
